@@ -121,6 +121,10 @@
             if (!this.mousedover) {
                 this.lookup(e);
             }
+            
+            $('.dropdown-menu').css({
+                width: this.$element.css('width')
+            });
         }
     };
 
